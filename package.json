@@ -1,0 +1,33 @@
+{
+  "name": "shob_be",
+  "version": "1.0.0",
+  "description": "Shop Backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoPotato/shop_be.git"
+  },
+  "keywords": [
+    "Shop",
+    "JS"
+  ],
+  "author": "Robert Wabuti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoPotato/shop_be/issues"
+  },
+  "homepage": "https://github.com/RobertoPotato/shop_be#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.16.2"
+  }
+}
